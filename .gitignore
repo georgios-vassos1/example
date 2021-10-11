@@ -1,0 +1,4 @@
+exdebug/src/*.o
+exdebug/src/*.so
+src/*.o
+src/*.so
