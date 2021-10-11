@@ -5,6 +5,7 @@
 #include <RcppArmadillo.h>
 #include <ex-debug.hpp>
 
+
 // [[Rcpp::export]]
 void sort_vec_R(int n, arma::vec v) {
     std::cout << "From root-dir/exdebug/src/ex-debug-wrap.cpp" << std::endl;

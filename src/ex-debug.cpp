@@ -10,7 +10,7 @@ namespace TestNamespace {
         /* std::cout << "Printing v[2]: " << v[2] << std::endl; */
     }
 
-    arma::vec getEigenValues(arma::mat M) {
+    arma::vec getEigenValues(arma::mat &M) {
         return arma::eig_sym(M);
     }
 

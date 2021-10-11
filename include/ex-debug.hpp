@@ -7,7 +7,7 @@
 namespace TestNamespace {
 
     void sort_vec(int, arma::vec &);
-    arma::vec getEigenValues(arma::mat);
+    arma::vec getEigenValues(arma::mat &);
 
 }
 
