@@ -1,7 +1,7 @@
 # Clear environment 
 rm(list=ls())
 
-setwd("/Users/gva/example/example")
+setwd("/Users/gva/example")
 # options(buildtools.check = function(action) TRUE )
 
 # RcppArmadillo::RcppArmadillo.package.skeleton(name = "exdebug")
